@@ -12,6 +12,46 @@ h4 a:hover {
     color:#D7DBDD; 
 }
     
+.block {
+	text-transform: lowercase;
+	padding: 0 4rem 20vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block__title {
+	position: relative;
+	font-size: 1rem;
+	margin: 0 0 1.5rem 0;
+	padding: 0.5rem 0;
+	cursor: pointer;
+	font-family: titling-gothic-fb-wide, sans-serif;
+	font-weight: 700;
+	color: var(--color-blocktitle);
+}
+
+.block__title:hover {
+	color: var(--color-blocktitle-hover);
+}
+
+.block__link {
+	position: relative;
+	cursor: pointer;
+	padding: 0.5rem 0;
+	color: var(--color-blocklink);
+}
+
+.block__link:hover {
+	color: var(--color-blocklink-hover);
+}
+
+.block__title span,
+.block__link span,
+.content__text-link span {
+	display: inline-block;
+	white-space: pre;
+}
 
 ul {
 	list-style: none;
