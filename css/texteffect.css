@@ -166,6 +166,9 @@ main {
 	padding: 0 5vw 25vh;
 	line-height: 2;
 	color: var(--color-text);
+	text-align:justify;
+	  font-size: 15px;
+
 }
 
 .content__text-link {
