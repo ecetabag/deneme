@@ -167,7 +167,10 @@ main {
 	line-height: 2;
 	color: #c4c3c2;
 	text-align:justify;
-	  font-size: 15px;
+	  font-size: 25px;
+  font-weight: bold;
+	    margin-right: 50px
+
 
 }
 
